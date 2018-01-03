@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="LBG-bk-FUc">
-                                <rect key="frame" x="16" y="40" width="343" height="400.5"/>
+                                <rect key="frame" x="16" y="40" width="343" height="423.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0o9-2d-hmH">
                                         <rect key="frame" x="0.0" y="0.0" width="83.5" height="20.5"/>
@@ -40,14 +40,15 @@
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="slJ-N9-Fll"/>
                                         </connections>
                                     </button>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" translatesAutoresizingMaskIntoConstraints="NO" id="QxI-iu-DJb">
-                                        <rect key="frame" x="0.0" y="80.5" width="320" height="320"/>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="QxI-iu-DJb">
+                                        <rect key="frame" x="0.0" y="80.5" width="343" height="343"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="QxI-iu-DJb" secondAttribute="height" multiplier="1:1" id="Kvp-6Y-yJn"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="QxI-iu-DJb" firstAttribute="width" secondItem="JDv-iV-xFi" secondAttribute="width" id="8cE-VF-w9K"/>
                                     <constraint firstAttribute="trailing" secondItem="JDv-iV-xFi" secondAttribute="trailing" id="KCi-vu-Z87"/>
                                 </constraints>
                             </stackView>
@@ -70,4 +71,7 @@
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="defaultPhoto" width="540" height="540"/>
+    </resources>
 </document>
