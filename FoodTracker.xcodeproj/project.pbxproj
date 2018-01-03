@@ -13,6 +13,7 @@
 		84D3EDAB1FFCD80B006FB700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D3EDAA1FFCD80B006FB700 /* Assets.xcassets */; };
 		84D3EDAE1FFCD80B006FB700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D3EDAC1FFCD80B006FB700 /* LaunchScreen.storyboard */; };
 		84D3EDB91FFCD80C006FB700 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3EDB81FFCD80C006FB700 /* FoodTrackerTests.swift */; };
+		84D3EDC41FFCFE35006FB700 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3EDC31FFCFE35006FB700 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		84D3EDB41FFCD80C006FB700 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D3EDB81FFCD80C006FB700 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		84D3EDBA1FFCD80C006FB700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D3EDC31FFCFE35006FB700 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,12 @@
 		84D3EDA21FFCD80B006FB700 /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
-				84D3EDA31FFCD80B006FB700 /* AppDelegate.swift */,
 				84D3EDA51FFCD80B006FB700 /* ViewController.swift */,
+				84D3EDC31FFCFE35006FB700 /* RatingControl.swift */,
 				84D3EDA71FFCD80B006FB700 /* Main.storyboard */,
 				84D3EDAA1FFCD80B006FB700 /* Assets.xcassets */,
 				84D3EDAC1FFCD80B006FB700 /* LaunchScreen.storyboard */,
+				84D3EDA31FFCD80B006FB700 /* AppDelegate.swift */,
 				84D3EDAF1FFCD80C006FB700 /* Info.plist */,
 			);
 			path = FoodTracker;
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D3EDA61FFCD80B006FB700 /* ViewController.swift in Sources */,
+				84D3EDC41FFCFE35006FB700 /* RatingControl.swift in Sources */,
 				84D3EDA41FFCD80B006FB700 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
