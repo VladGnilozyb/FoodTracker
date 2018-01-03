@@ -50,7 +50,7 @@
                                             <outletCollection property="gestureRecognizers" destination="GDB-iE-wRA" appends="YES" id="9cf-d8-qu9"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5cr-IL-DSh" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5cr-IL-DSh" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="423.5" width="200" height="110"/>
                                     </stackView>
                                 </subviews>
