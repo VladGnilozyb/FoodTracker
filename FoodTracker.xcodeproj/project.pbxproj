@@ -14,6 +14,7 @@
 		84D3EDAE1FFCD80B006FB700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D3EDAC1FFCD80B006FB700 /* LaunchScreen.storyboard */; };
 		84D3EDB91FFCD80C006FB700 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3EDB81FFCD80C006FB700 /* FoodTrackerTests.swift */; };
 		84D3EDC41FFCFE35006FB700 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3EDC31FFCFE35006FB700 /* RatingControl.swift */; };
+		84D3EDC61FFD0F0A006FB700 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3EDC31FFCFE35006FB700 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D3EDC61FFD0F0A006FB700 /* RatingControl.swift in Sources */,
 				84D3EDB91FFCD80C006FB700 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
